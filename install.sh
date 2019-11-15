@@ -17,6 +17,19 @@ wstool update -t src
 sudo apt-get install ros-kinetic-moveit
 sudo apt-get install ros-kinetic-franka-description
 
+#Install I3DR Vision dependencies
+#RTABMAP
+sudo apt-get install libsqlite3-dev libpcl-dev libopencv-dev git cmake libproj-dev libqt5svg5-dev
+sudo apt-get install ros-kinetic-rtabmap ros-kinetic-rtabmap-ros
+#sudo apt-get remove ros-kinetic-rtabmap ros-kinetic-rtabmap-ros
+cd 3dr_party
+git clone https://github.com/introlab/rtabmap.git
+cd rtabmap/build
+cmake ..
+make -j4
+sudo make install
+cd ../../..
+
 #Install Robotiq dependencies
 #rosdep install robotiq_modbus_tcp
 sudo easy_install -U pymodbus
