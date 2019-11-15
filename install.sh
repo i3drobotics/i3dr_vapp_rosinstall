@@ -10,6 +10,7 @@ rm -r devel
 #Setup ROS workspace
 wstool init src
 wstool merge -t src i3dr_vision.rosinstall
+wstool merge -t src i3dr_vapp.rosinstall
 wstool merge -t src robotiq_gripper.rosinstall
 wstool merge -t src ur_arm.rosinstall
 wstool merge -t src moveit_planning.rosinstall
