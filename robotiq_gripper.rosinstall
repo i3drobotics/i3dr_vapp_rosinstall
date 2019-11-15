@@ -1,0 +1,1 @@
+- git: {local-name: robotiq_gripper/robotiq, uri: 'https://github.com/ros-industrial/robotiq.git', version: kinetic-devel}

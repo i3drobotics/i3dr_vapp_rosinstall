@@ -1,0 +1,9 @@
+*.code-workspace
+.vscode/*
+*.catkin_workspace
+build/*
+devel/*
+src/*
+logs/*
+.catkin_tools/*
+!.vscode/tasks.json

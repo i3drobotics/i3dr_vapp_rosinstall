@@ -1,0 +1,3 @@
+- git: {local-name: ur_arm/universal_robot, uri: 'https://github.com/ros-industrial/universal_robot.git', version: kinetic-devel}
+
+- git: {local-name: ur_arm/ur_modern_driver, uri: 'https://github.com/dniewinski/ur_modern_driver.git', version: kinetic-devel}
