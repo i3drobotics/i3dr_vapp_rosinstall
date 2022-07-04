@@ -1,17 +1,17 @@
-- git: {local-name: i3dr_vision/image_pipeline, uri: 'https://github.com/i3drobotics/image_pipeline', version: master}
+- git: {local-name: i3dr_vision/image_pipeline, uri: 'https://github.com/i3drobotics/image_pipeline', version: main}
 
-- git: {local-name: i3dr_vision/gscam, uri: 'https://github.com/i3drobotics/gscam.git', version: master}
+- git: {local-name: i3dr_vision/gscam, uri: 'https://github.com/i3drobotics/gscam.git', version: main}
 
-- git: {local-name: i3dr_vision/pylon_camera, uri: 'https://github.com/i3drobotics/pylon_camera.git', version: master}
+- git: {local-name: i3dr_vision/pylon_camera, uri: 'https://github.com/i3drobotics/pylon_camera.git', version: main}
 
 - git: {local-name: i3dr_vision/camera_control_msgs, uri: 'https://github.com/i3drobotics/camera_control_msgs.git', version: indigo-devel}
 
-- git: {local-name: i3dr_vision/i3dr_stereo_camera, uri: 'https://github.com/i3drobotics/i3dr_stereo_camera-ros.git', version: master}
+- git: {local-name: i3dr_vision/i3dr_stereo_camera, uri: 'https://github.com/i3drobotics/i3dr_stereo_camera-ros.git', version: main}
 
-- git: {local-name: i3dr_vision/i3dr_deimos, uri: 'https://github.com/i3drobotics/i3dr_deimos-ros.git', version: beta}
+- git: {local-name: i3dr_vision/i3dr_deimos, uri: 'https://github.com/i3drobotics/i3dr_deimos-ros.git', version: main}
 
-- git: {local-name: i3dr_vision/i3dr_phobos_nuclear, uri: 'https://github.com/i3drobotics/i3dr_phobos_nuclear-ros.git', version: master}
+- git: {local-name: i3dr_vision/i3dr_phobos_nuclear, uri: 'https://github.com/i3drobotics/i3dr_phobos_nuclear-ros.git', version: main}
 
-- git: {local-name: i3dr_vision/i3dr_rtabmap, uri: 'https://github.com/i3drobotics/i3dr_rtabmap-ros.git', version: master}
+- git: {local-name: i3dr_vision/i3dr_rtabmap, uri: 'https://github.com/i3drobotics/i3dr_rtabmap-ros.git', version: main}
 
 - git: {local-name: i3dr_vision/rtabmap_ros, uri: 'https://github.com/i3drobotics/rtabmap_ros.git', version: master}
